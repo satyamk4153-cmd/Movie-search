@@ -1,0 +1,60 @@
+body{
+    max-width:900px;
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    padding:20px;
+    /* text-align: center; */
+}
+h1{
+    text-align: center;
+}
+form{
+    display:flex;
+    gap:10px;
+
+}
+input{
+    flex:1;
+    padding:10px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    height:20px;
+    width:50%;
+    border:3px solid rgb(100, 32, 118);
+}
+
+button{
+    padding:10px 20px;
+    border:3px solid rgb(100, 32, 118);
+    background-color: rgb(179, 238, 77);
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+#search:hover{
+    background-color: rgb(108, 108, 216);
+}
+
+#msg{
+    text-align: center;
+    color:rgb(159, 154, 154);
+}
+
+#results{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 8px;
+    overflow:hidden;
+    text-align:center;
+}
